@@ -19,7 +19,10 @@ header h1{
   width: 10em;
   padding-top: 0.4em;
 }
-
+header h1 a{
+  text-decoration: none;
+  color: #000000;
+}
 header nav{
   float: right;
   margin: 0px;
@@ -41,6 +44,7 @@ header nav a:hover{
 header nav a:visited{
   color: black;
 }
+
 
 #landscape{
   padding-left: 4em;
@@ -136,4 +140,32 @@ footer{
   float: right;
   padding-top: 1.5em;
   padding-right: 4em;
+}
+.IniciarSesion{
+	width: 320px;  /*Tamaño del recuadro*/
+	height: 400px;
+	background:#9CEC58;
+	color:#000000;
+	top: :50%;  /*Ubicación del cuadro iniciar sesión en y*/
+	left:50%; /*Ubicación del cuadro iniciar sesion en x*/
+	position: relative;
+	transform: translate(-50%,20%);
+	box-sizing: border-box;
+	padding: 20px 30px;  /*Espaciado interno en "x" y "y respectivamente"*/
+	border-radius:22px;  /*Hace las esquinas redondas*/
+
+}
+
+.Registrarse{
+	width: 320px;  /*Tamaño del recuadro*/
+	height: 450px;
+	background:#9CEC58;
+	color:#000000;
+	top:50%;  /*Ubicación del cuadro iniciar sesión en y*/
+	left:50%; /*Ubicación del cuadro iniciar sesion en x*/
+	position: relative; 
+	transform: translate(-50%,10%);
+	box-sizing: border-box;
+	padding: 20px 30px;  /*Espaciado interno en "x" y "y respectivamente"*/
+	border-radius:22px;  /*Hace las esquinas redondas*/
 }
